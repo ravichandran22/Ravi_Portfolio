@@ -305,3 +305,27 @@ a:hover {
   outline: 0;
   box-shadow: 0 0 0 .25rem rgba(0, 184, 123, 0.25);
 }
+.contact-btn i{
+  font-weight: 400;
+  line-height: 1.5;
+  color: #eee;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  border-radius: 0;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  background-color: #314355 !important;
+  border-color: #314355 !important;
+  width: 40px;
+  height: 40px;
+  margin-right: .25rem !important;
+  margin-left: .25rem !important;
+}
+.contact-text{
+  color: #eee;
+}
