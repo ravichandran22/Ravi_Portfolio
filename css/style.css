@@ -1,7 +1,8 @@
 /********** Template CSS **********/
 body{
-  background-color: #2C3E50;
-  color: #eee;
+  /* background-color: #2C3E50; */
+  background-color: #121212;
+  color: #D6D6D6;
 }
 
 #spinner {
@@ -73,7 +74,7 @@ body{
   justify-content: center;
 }
 .bg-secondary {
-  background-color: #314355 !important;
+  background-color: #1E1E1F !important;
 }
 .btn-primary:hover {
   background-color: #26c38f;
@@ -188,6 +189,22 @@ a:hover {
   }
 }
 
+/*** Left Side ***/
+.img {
+  width: 200px !important;
+  border-radius: 100%;
+  margin: 0 auto;
+}
+.bg{
+  background-color: #1E1E1F;
+}
+.avatar-box{
+  border-radius: 100%;
+  padding: 20px;
+  background-color: #363637;
+  margin: 0 auto;
+  width: 250px;
+}
 .title {
   position: relative;
 }
